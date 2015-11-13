@@ -1,0 +1,172 @@
+html {
+	font-size:10px;
+	font-family:'Verdana',sans-serif;
+}
+
+body {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("./images/background.jpg");
+	background-attachment: fixed;
+
+}
+
+header img{
+    display: block;
+    width:100%;
+    height:auto;
+	border:solid thin black;
+}
+
+
+
+
+
+
+nav {
+    background-color:orange;
+    border:solid thin black;
+    width:100%;
+	
+}
+
+nav ul {
+    list-style-type:none;
+    width:inherit;
+    padding:0;
+    margin:0;
+    border:0;
+    font-size:0; /* To eliminate spaces between inline blocks */
+}
+
+nav h1{
+	display:none;
+}
+
+nav ul li{
+    font-size:2.2rem; /* Reset the font size */
+    display:inline-block;
+    border-left:solid thin black;
+    width:19.86%;
+}
+
+nav ul li a{
+    display:inline-block;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    width:100%;
+}
+
+nav ul li a:hover{
+    color:black;
+    background-color:darkorange;
+}
+
+/* The following 5 are to make the active page link 
+ * in the main menu darker than the others*/
+#workPage nav ul li#work, #workPage nav ul li#work a:hover{
+	background-color:orangered;
+}
+
+#indexPage nav ul li#main, #indexPage nav ul li#main a:hover{
+	background-color:orangered;
+}
+
+#bioPage nav ul li#bio, #bioPage nav ul li#bio a:hover{
+	background-color:orangered;
+}
+
+#imagesPage nav ul li#images, #imagesPage nav ul li#images a:hover{
+	background-color:orangered;
+}
+
+#lecturesPage nav ul li#lectures, #lecturesPage nav ul li#lectures a:hover{
+	background-color:orangered;
+}
+
+
+
+
+main{
+	overflow:hidden; 
+}
+
+main img{
+    float:right;
+    width:35%;
+    height:auto;
+	padding-left:1%;
+}
+
+
+main, article{
+   	padding-top:1%;
+	padding-right:3%;
+	padding-left:3%;
+	padding-bottom:1%;
+	line-height:1.5em;
+    background-color:darkslategray;
+    color:white;
+	font-size:1.7rem; 
+    margin-bottom:2%;
+}
+
+
+footer{
+    border-top:solid white thin;
+    text-align:center;
+}
+
+figure {
+    width: 100%;
+	display:inline-block;
+	max-width:35%;
+	text-align:center;
+	vertical-align:top;
+}
+
+figure figcaption{
+    text-align:center;
+}
+
+figure img {
+    border:double medium black;
+	width:100%;
+	max-width:100%;
+}
+
+
+h1{
+	display:none;
+}
+
+main h1{
+	display:block;
+	font-size:2.5rem;
+}
+
+h2{
+	font-size:2.5rem;
+}
+
+article a{
+    color:orange;
+}
+
+article a:visited{
+    color: orangered;
+}
+
+
+
+
+#videos{
+	text-align:center;
+}
+
+iframe{
+	margin-bottom:5%;
+	border:0px;
+}
